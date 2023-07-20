@@ -1,3 +1,9 @@
+#namespace
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: pacman
+---
 #database_secret
 apiVersion: v1
 kind: Secret
