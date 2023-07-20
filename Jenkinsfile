@@ -23,6 +23,7 @@ pipeline {
                         location: env.LOCATION,
                         manifestPattern: 'deploy_efrei/all',
                         credentialsId: env.CREDENTIALS_ID,
+                        namespace: 'pacman',
                         verifyDeployments: true])
                     }
         }
