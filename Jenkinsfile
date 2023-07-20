@@ -21,7 +21,7 @@ pipeline {
                         projectId: env.PROJECT_ID,
                         clusterName: env.CLUSTER_NAME,
                         location: env.LOCATION,
-                        manifestPattern: 'deploy_efrei/all.yaml',
+                        manifestPattern: 'deploy_efrei/all',
                         credentialsId: env.CREDENTIALS_ID,
                         verifyDeployments: true])
                     }
